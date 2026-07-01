@@ -2,32 +2,18 @@
 
 # 📈 VinStock
 
-### A stock research platform for Indian (NSE) equities
-**Real-time fundamentals · a rule-based screener · watchlists · score-driven insights**
+**A stock research platform for Indian (NSE) equities — real-time fundamentals, a rule-based screener, watchlists, and score-driven insights.**
 
-<br/>
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=flat)](https://www.sqlalchemy.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://mdf-vinstock.onrender.com)
+[![YouTube](https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/YOUR_VIDEO_ID)
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=for-the-badge)](https://www.sqlalchemy.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-brightgreen?style=for-the-badge&logo=render&logoColor=white)](https://mdf-vinstock.onrender.com)
-[![YouTube](https://img.shields.io/badge/YouTube-Watch%20Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7nuD93Gte5E)
-
-<br/>
-
-![GitHub last commit](https://img.shields.io/github/last-commit/mohdfaij-data/VinStock?style=flat-square&color=blue)
-![GitHub repo size](https://img.shields.io/github/repo-size/mohdfaij-data/VinStock?style=flat-square&color=orange)
-![GitHub stars](https://img.shields.io/github/stars/mohdfaij-data/VinStock?style=flat-square&color=yellow)
-![GitHub forks](https://img.shields.io/github/forks/mohdfaij-data/VinStock?style=flat-square&color=purple)
-![GitHub issues](https://img.shields.io/github/issues/mohdfaij-data/VinStock?style=flat-square&color=red)
-
-**[🚀 Live Demo](https://mdf-vinstock.onrender.com)** &nbsp;·&nbsp; **[▶ Watch Demo Video](https://youtu.be/7nuD93Gte5E)** &nbsp;·&nbsp; **[🐛 Report Bug](../../issues)** &nbsp;·&nbsp; **[✨ Request Feature](../../issues)**
+[Live Demo](https://vin-stock-mocha.vercel.app) · [Watch Demo Video](https://youtu.be/7nuD93Gte5E) · [Report Bug](../../issues) · [Request Feature](../../issues)
 
 </div>
-
-<br/>
 
 ---
 
@@ -48,17 +34,14 @@
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ---
 
 ## Overview
 
-VinStock turns raw NSE market data into structured, decision-ready insight. Instead of scattering P/E ratios, balance sheets, and screeners across five different broker apps, VinStock centralizes them behind a single Flask application with a clean data-access layer, a cached screener engine, and a transparent scoring system — so **every number on screen traces back to a real API call, not a guess.**
+VinStock turns raw NSE market data into structured, decision-ready insight. Instead of scattering P/E ratios, balance sheets, and screeners across five different broker apps, VinStock centralizes them behind a single Flask application with a clean data-access layer, a cached screener engine, and a transparent scoring system — so every number on screen traces back to a real API call, not a guess.
 
-> **Why it's built differently:** most student finance projects fake their numbers or hide their gaps. VinStock does the opposite — every approximated metric is labeled *in the UI itself*, with a plain-language note explaining exactly what data is missing and why. See [What's Real vs. Approximated](#whats-real-vs-approximated).
-
-The project is explicitly versioned as **Phase 1**: a working, honestly-documented foundation with clear architectural seams for the analytics and ML work planned in later phases.
+The project is explicitly versioned as **Phase 1**: a working, honestly-documented foundation with clear seams for the analytics and ML work planned in later phases.
 
 ---
 
@@ -66,9 +49,9 @@ The project is explicitly versioned as **Phase 1**: a working, honestly-document
 
 <div align="center">
 
-[![Watch the VinStock demo on YouTube](https://img.youtube.com/vi/7nuD93Gte5E/maxresdefault.jpg)](https://youtu.be/7nuD93Gte5E)
+[![Watch the VinStock demo on YouTube](https://youtu.be/7nuD93Gte5E)]([[https://youtu.be/7nuD93Gte5E]])
 
-**[▶ Watch the full walkthrough on YouTube](https://youtu.be/7nuD93Gte5E)**
+**[▶ Watch the full walkthrough on YouTube]([https://youtu.be/7nuD93Gte5E])**
 
 </div>
 
@@ -80,18 +63,18 @@ A short walkthrough covering the screener, fundamental analysis view, VinStock S
 
 <table>
   <tr>
-    <td width="50%" align="center">
-      <b>🏠 Home / Dashboard</b><br/><br/>
-      <img src="docs/screenshots/home-screen.png" alt="VinStock home screen showing stock search and market overview" width="100%"/>
+    <td width="50%">
+      <b>Home / Dashboard</b><br/>
+      <img src="home-screen.png" alt="VinStock home screen showing stock search and market overview" width="100%"/>
     </td>
-    <td width="50%" align="center">
-      <b>ℹ️ About Section</b><br/><br/>
-      <img src="docs/screenshots/about-section.png" alt="VinStock about section describing the platform and its purpose" width="100%"/>
+    <td width="50%">
+      <b>About Section</b><br/>
+      <img src="about-section.png" alt="VinStock about section describing the platform and its purpose" width="100%"/>
     </td>
   </tr>
 </table>
 
-> **Setup note:** create a `docs/screenshots/` folder in the repo root, add `home-screen.png` and `about-section.png`, then commit and push. GitHub renders them automatically — no external hosting required.
+> Replace the images above by adding your own screenshots to `assets/screenshots/` in the repo (create the folder if it doesn't exist) and committing them — GitHub will render them automatically once pushed.
 
 ---
 
@@ -99,15 +82,15 @@ A short walkthrough covering the screener, fundamental analysis view, VinStock S
 
 | Category | Capability |
 |---|---|
-| 📈 **Market Data** | Live price and fundamental data for a curated ~184-stock NSE universe via `yfinance` |
-| 📊 **Fundamental Analysis** | P/E, P/B, PEG, EPS, ROE, ROCE, Market Cap, Enterprise Value, P/S, Dividend Yield, Debt/Equity, Beta, 52-week high/low |
-| 📑 **Financial Statements** | Revenue, Net Profit, Operating Profit, EBITDA, Cash Flow, Balance Sheet, Assets, Liabilities, Shareholders' Equity |
-| 🧹 **Screener** | Prebuilt + custom screens evaluated against a refreshed cache table — not live calls per request |
-| ⭐ **VinStock Score** | Composite score summarizing financial strength across multiple fundamental indicators |
-| 🏢 **Company Intelligence** | Sector/industry classification, business summaries, hand-curated peer groups for ~20 major stocks |
-| 📝 **Watchlists** | Per-user watchlists with full CRUD |
-| 🔐 **Accounts** | Email + password registration and login |
-| 🔎 **Transparency by design** | Approximated screens are labeled in the UI with an explanation of exactly what data is missing — nothing is silently faked |
+| **Market Data** | Live price and fundamental data for a curated ~184-stock NSE universe via `yfinance` |
+| **Fundamental Analysis** | P/E, P/B, PEG, EPS, ROE, ROCE, Market Cap, Enterprise Value, P/S, Dividend Yield, Debt/Equity, Beta, 52-week high/low |
+| **Financial Statements** | Revenue, Net Profit, Operating Profit, EBITDA, Cash Flow, Balance Sheet, Assets, Liabilities, Shareholders' Equity |
+| **Screener** | Prebuilt + custom screens evaluated against a refreshed cache table — not live calls per request |
+| **VinStock Score** | Composite score summarizing financial strength across multiple fundamental indicators |
+| **Company Intelligence** | Sector/industry classification, business summaries, hand-curated peer groups for ~20 major stocks |
+| **Watchlists** | Per-user watchlists with full CRUD |
+| **Accounts** | Email + password registration and login |
+| **Transparency by design** | Screens that are approximated (rather than historically accurate) are labeled in the UI with an explanation of exactly what data is missing — nothing is silently faked |
 
 ---
 
@@ -146,31 +129,21 @@ vinstock/
 └── requirements.txt
 ```
 
-**Design principle:** routes never talk to `yfinance` directly. Everything flows
-
-```
-provider → collector → cache table → screener_engine / routes
-```
-
-which is what makes the screener fast (reads are pure SQL, not live network calls) and makes swapping data vendors a contained, single-file change.
+**Design principle:** routes never talk to `yfinance` directly. Everything flows `provider → collector → cache table → screener_engine / routes`, which is what makes the screener fast (reads are pure SQL, not live network calls) and makes swapping data vendors a contained change.
 
 ---
 
 ## Tech Stack
 
-<div align="center">
-
 | Layer | Technology |
 |---|---|
-| **Backend** | Python, Flask |
-| **ORM / Database** | SQLAlchemy, SQLite (Postgres-ready) |
-| **Templating** | Jinja2 |
-| **Frontend** | HTML5, CSS3, vanilla JavaScript |
-| **Market Data** | yfinance API |
-| **Deployment** | Render (Gunicorn) |
-| **Version Control** | Git & GitHub |
-
-</div>
+| Backend | Python, Flask |
+| ORM / DB | SQLAlchemy, SQLite (Postgres-ready) |
+| Templating | Jinja2 |
+| Frontend | HTML5, CSS3, vanilla JavaScript |
+| Market Data | yfinance API |
+| Deployment | Render (Gunicorn) |
+| Version Control | Git & GitHub |
 
 ---
 
@@ -183,18 +156,13 @@ which is what makes the screener fast (reads are pure SQL, not live network call
 ### Installation
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/mohdfaij-data/VinStock.git
 cd VinStock
-
-# 2. Install dependencies
 pip install -r requirements.txt
-
-# 3. Run the app
 python app.py
 ```
 
-Visit **[http://127.0.0.1:5000](http://127.0.0.1:5000)**. The SQLite database (`instance/vinstock.db`) and the 184-stock universe are created automatically on first run.
+Visit **[http://localhost:5000](http://127.0.0.1:5000)**. The SQLite database (`instance/vinstock.db`) and the 184-stock universe are created automatically on first run.
 
 ---
 
@@ -212,21 +180,19 @@ This mirrors a production setup where a scheduled job (cron / APScheduler) refre
 
 ## What's Real vs. Approximated
 
-Every number in VinStock comes from real `yfinance` data — **nothing is fabricated.** Some screens, however, are labeled **"Approximated"** in the UI because their true version requires multi-year historical snapshots not yet stored (planned for Phase 2):
+Every number in VinStock comes from real `yfinance` data — **nothing is fabricated**. Some screens, however, are labeled **"Approximated"** in the UI because their true version requires multi-year historical snapshots not yet stored (planned for Phase 2):
 
-| Screen | What it actually checks today | What it will check in Phase 2 |
-|---|---|---|
-| "Low on 10-Year Average P/E" | Low *absolute* P/E | P/E relative to the stock's own historical average |
-| "Debt Reduction" | *Current* low Debt/Equity | Multi-year decreasing trend |
-| "Growth Without Dilution" | Growth rates only | Growth **and** share-count stability over time |
+- **"Low on 10-Year Average P/E"** — currently checks *low absolute P/E*, not P/E relative to the stock's own historical average.
+- **"Debt Reduction"** — checks *current* low Debt/Equity, not a multi-year decreasing trend.
+- **"Growth Without Dilution"** — checks growth rates, not share-count stability over time.
 
-Fields with no available data source at all — Promoter/FII/DII holding, Quick Ratio, Interest Coverage — are marked **"Coming soon"** rather than shown with a guessed value.
+Fields with no available data source at all (Promoter/FII/DII holding, Quick Ratio, Interest Coverage) are marked **"Coming soon"** rather than shown with a guessed value.
 
 ---
 
 ## Database Migration (SQLite → PostgreSQL)
 
-All models use standard SQLAlchemy types with no SQLite-specific features. Migrating is a one-line config change:
+All models use standard SQLAlchemy types with no SQLite-specific features. Migrating is a one-line change in `app.py`:
 
 ```python
 app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://user:pass@host/dbname"
@@ -243,13 +209,13 @@ echo "psycopg2-binary" >> requirements.txt
 
 ## Deployment
 
-**Render** *(current live deployment)*
+**Render**
 
 1. Push this repo to GitHub.
 2. Create a new Web Service on Render and connect the repo.
 3. Build command: `pip install -r requirements.txt`
 4. Start command: `gunicorn app:app` *(already defined in `Procfile`)*
-5. **Important:** Render's free tier uses an ephemeral filesystem — SQLite data will **not** persist across deploys/restarts. For anything beyond a demo, provision a managed PostgreSQL instance and point `SQLALCHEMY_DATABASE_URI` at it via an environment variable.
+5. **Important:** Render's free tier uses an ephemeral filesystem — SQLite data will not persist across deploys/restarts. For anything beyond a demo, provision a managed PostgreSQL instance and point `SQLALCHEMY_DATABASE_URI` at it via an environment variable.
 
 ---
 
@@ -286,25 +252,18 @@ Contributions, issues, and feature requests are welcome.
 1. Fork the repo
 2. Create a branch: `git checkout -b feature/your-feature`
 3. Commit your changes: `git commit -m "Add: your feature"`
-4. Push the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
+4. Push and open a Pull Request
 
 ---
 
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
+Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
-## Contact
-
-**Mohd Faij**
-
-[![GitHub](https://img.shields.io/badge/GitHub-mohdfaij--data-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mohdfaij-data)
-
 <div align="center">
 
-If this project is useful to you, consider giving it a ⭐ — it genuinely helps.
+Built by [Mohd Faij](https://github.com/mohdfaij-data) · If this project is useful, consider ⭐ starring the repo.
 
 </div>
