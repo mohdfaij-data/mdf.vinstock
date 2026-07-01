@@ -162,7 +162,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Visit **http://localhost:5000**. The SQLite database (`instance/vinstock.db`) and the 184-stock universe are created automatically on first run.
+Visit **[http://localhost:5000](http://127.0.0.1:5000)**. The SQLite database (`instance/vinstock.db`) and the 184-stock universe are created automatically on first run.
 
 ---
 
