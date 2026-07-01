@@ -49,7 +49,7 @@ The project is explicitly versioned as **Phase 1**: a working, honestly-document
 
 <div align="center">
 
-[![Watch the VinStock demo on YouTube](https://img.https://youtu.be/7nuD93Gte5E/maxresdefault.jpg)]([[https://youtu.be/7nuD93Gte5E]])
+[![Watch the VinStock demo on YouTube](https://youtu.be/7nuD93Gte5E)]([[https://youtu.be/7nuD93Gte5E]])
 
 **[▶ Watch the full walkthrough on YouTube]([https://youtu.be/7nuD93Gte5E])**
 
