@@ -8,10 +8,10 @@
 [![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=flat)](https://www.sqlalchemy.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://vin-stock-mocha.vercel.app)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://mdf-vinstock.onrender.com)
 [![YouTube](https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/YOUR_VIDEO_ID)
 
-[Live Demo](https://vin-stock-mocha.vercel.app) · [Watch Demo Video](https://www.youtube.com/channel/UCHw7w6PaEkZ25kme3Ix62GA) · [Report Bug](../../issues) · [Request Feature](../../issues)
+[Live Demo](https://vin-stock-mocha.vercel.app) · [Watch Demo Video](https://youtu.be/7nuD93Gte5E) · [Report Bug](../../issues) · [Request Feature](../../issues)
 
 </div>
 
@@ -49,9 +49,9 @@ The project is explicitly versioned as **Phase 1**: a working, honestly-document
 
 <div align="center">
 
-[![Watch the VinStock demo on YouTube](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)]([[https://youtu.be/YOUR_VIDEO_ID](https://www.youtube.com/channel/UCHw7w6PaEkZ25kme3Ix62GA)])
+[![Watch the VinStock demo on YouTube](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)]([[https://youtu.be/7nuD93Gte5E]])
 
-**[▶ Watch the full walkthrough on YouTube]([https://youtu.be/YOUR_VIDEO_ID](https://www.youtube.com/channel/UCHw7w6PaEkZ25kme3Ix62GA))**
+**[▶ Watch the full walkthrough on YouTube]([https://youtu.be/7nuD93Gte5E])**
 
 </div>
 
