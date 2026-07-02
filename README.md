@@ -11,7 +11,7 @@
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://mdf-vinstock.onrender.com)
 [![YouTube](https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/YOUR_VIDEO_ID)
 
-[Live Demo](https://mdf-vinstock.onrender.com) · [Watch Demo Video](https://youtu.be/7nuD93Gte5E) · [Report Bug](../../issues) · [Request Feature](../../issues)
+[Live Demo](https://mdf-vinstock.onrender.com) · [Watch Demo Video](https://youtu.be/ixvYIrWNUPY) · [Report Bug](../../issues) · [Request Feature](../../issues)
 
 </div>
 
@@ -49,9 +49,9 @@ The project is explicitly versioned as **Phase 1**: a working, honestly-document
 
 <div align="center">
 
-[![Watch the VinStock demo on YouTube](https://youtu.be/7nuD93Gte5E)]([[https://youtu.be/7nuD93Gte5E]])
+[![Watch the VinStock demo on YouTube](https://youtu.be/7nuD93Gte5E)]([https://youtu.be/ixvYIrWNUPY])
 
-**[▶ Watch the full walkthrough on YouTube]([https://youtu.be/7nuD93Gte5E])**
+**[▶ Watch the full walkthrough on YouTube]([https://youtu.be/ixvYIrWNUPY])**
 
 </div>
 
